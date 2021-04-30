@@ -30,18 +30,19 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
+
 }
 
 .link-primary {
     background-color: var(--primary-color);
     color: white;
-
+    border-radius: 0.5rem;
 }
 
 .link-secondary {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
 }
 
 /* lists */
@@ -68,12 +69,18 @@ hr {
     font-weight: bold;
 }
 
+.nav-brand a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .navigation .nav-pills {
     text-align: right;
+    padding-inline-start: 0px;
 }
 
 .navigation .link {
-    color: white;
+    color: #ffffff;
 }
 
 .navigation .link-active {
@@ -87,7 +94,8 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 80%;
+    width: 350px;
     display: block;
     margin: auto;
 }
