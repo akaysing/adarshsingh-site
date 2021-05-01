@@ -57,6 +57,12 @@ hr {
     margin-top: 1rem;
 }
 
+.link-blog {
+    color: var(--primary-color);
+    display: block;
+    padding: 0.5rem 0rem;
+}
+
 /* lists */
 
 
@@ -69,6 +75,8 @@ hr {
     padding: 0rem 0.5rem;
 
 }
+
+
 
 /* navs */
 .navigation {
