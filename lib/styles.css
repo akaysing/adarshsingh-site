@@ -138,6 +138,10 @@ hr {
   background-color: var(--off-white);
 }
 
+.showcase-blog {
+  padding-bottom: 6rem;
+}
+
 /** footers **/
 
 .footer {
